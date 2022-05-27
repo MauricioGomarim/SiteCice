@@ -14,14 +14,19 @@
   margin: 0 auto;
 }
 
+body {
+  background: rgba(51, 51, 51, 1);
+}
+
 body::before {
   content: '';
-  display: block;
   width: 100%;
   height: 7.2rem;
   background: rgba(51, 51, 51, 1);
   position: absolute;
   z-index: -1;
+  border-bottom: 1px solid white;
+
 }
 
 nav {
@@ -29,6 +34,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 3.2rem;
+
 }
 
 
@@ -64,4 +70,19 @@ ul a {
 
 ul a:hover {
   color: rgb(255, 255, 255);
+}
+
+main::before {
+  opacity: 20%;
+  content: 'teste';
+  background-image: url(/images/delfina-pan-wJoB8D3hnzc-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 130%;
+  background-position: center;
+
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  z-index: -2;
+  left: 0;
 }
