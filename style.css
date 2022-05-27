@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+}
+
+.container {
+  padding: 0 16.5rem;
+}
+
+nav {
+  height: 7.2rem;
+  display: flex;
+
+  background: #333333;
+  box-shadow: 20px 10px 10px #a2a4a9;
+  align-items: center;
+
+}
+
+.logo {
+  display: flex;
+}
+
+.logo h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.4rem;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+
+ul {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.4rem;
+  display: flex;
+  gap: 3.2rem;
+}
+
+ul li {
+  list-style: none;
+
+}
+
+ul a {
+  color: gray;
+  text-decoration: none;
+}
