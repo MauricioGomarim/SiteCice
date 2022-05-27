@@ -61,3 +61,7 @@ ul a {
   color: gray;
   text-decoration: none;
 }
+
+ul a:hover {
+  color: rgb(255, 255, 255);
+}
