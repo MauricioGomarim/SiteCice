@@ -281,7 +281,7 @@ table {
   flex-direction: column;
 }
 
-.textcontent {
+.textcontent, .textcontent-none, .textcontent-initial {
   max-width: 500px;
 }
 
@@ -337,8 +337,9 @@ footer a {
 }
 
 
-
-
+.textcontent-none {
+  display: none;
+}
 
 #none {
   display: none;
@@ -366,6 +367,14 @@ footer a {
     justify-content: center;
   }
 
+  .textcontent-initial {
+    display: none;
+
+  }
+
+  .textcontent-none {
+    display: initial;
+  }
 
 
 
