@@ -90,7 +90,7 @@ header::before {
   width: 100%;
   height: 100%;
   position: absolute;
-  z-index: -2;
+  z-index: -1;
   left: 0;
 }
 
@@ -217,6 +217,9 @@ table {
   flex-direction: column;
 
   gap: 5rem;
+
+  position: relative;
+  z-index: 1;
 }
 
 .corte1 {
@@ -230,6 +233,18 @@ table {
   object-fit: cover;
   border-radius: 20px;
   margin-bottom: 2rem;
+
+}
+
+.corte1::before {
+  content: '';
+  width: 30rem;
+  height: 40rem;
+  background-color: black;
+  position: absolute;
+  z-index: -1;
+  left: 10rem;
+  top: 0rem;
 }
 
 
@@ -249,15 +264,33 @@ table {
   font-size: 2rem;
 }
 
-#none {
-  display: none;
+
+footer {
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: black;
+  color: white;
+  letter-spacing: 1rem;
+}
+
+footer span {
+  color: rgb(136, 136, 136);
+}
+
+footer a {
+  text-decoration: none;
+  color: red;
 }
 
 
 
 
 
-
+#none {
+  display: none;
+}
 
 
 @media (min-width: 600px) {
