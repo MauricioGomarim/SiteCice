@@ -247,33 +247,41 @@ table {
 }
 
 
+.img-before1 {
+  position: relative;
+}
 
-/*
-.corte1::before {
+.img-before1::before {
   content: '';
   max-width: 30rem;
   max-height: 31rem;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.698);
+  background-color: rgb(0, 0, 0);
   position: absolute;
   z-index: -1;
-  left: 0rem;
-  top: 0rem;
+  right: -20px;
 }
 
-.textsec3::before {
+.img-before2 {
+  position: relative;
+}
+
+.img-before2::before {
   content: '';
-  width: 30rem;
-  height: 40rem;
-  background-color: rgba(0, 0, 0, 0.346);
+  max-width: 30rem;
+  max-height: 31rem;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.946);
   position: absolute;
   z-index: -1;
-  left: 0rem;
-  bottom: 0rem;
+  right: 8rem;
+  bottom: 2rem;
 }
 
-*/
+
+
 
 
 .text1, .text2 {
