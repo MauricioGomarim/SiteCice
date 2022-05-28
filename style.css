@@ -233,6 +233,8 @@ table {
   gap: 8rem;
 
   flex-direction: column;
+
+  position: relative;
 }
 
 .corte1 img {
@@ -313,6 +315,18 @@ table {
 
 .text1 img {
   margin: 3rem 1rem;
+}
+
+
+.line {
+  width: 70vw;
+  height: 0;
+  border-top: 1px solid rgb(0, 0, 0);
+
+  position: absolute;
+
+  top: 70vh;
+  z-index: -4;
 }
 
 .text2 img {
