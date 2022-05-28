@@ -152,6 +152,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 3.2rem;
 
 }
 
@@ -183,10 +184,29 @@ main {
 }
 
 
+
 .section3 {
+
   border-top: 2px solid rgb(0, 0, 0);
   width: 100%;
   background-color: rgb(120, 120, 120);
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 15rem;
+}
+
+.corte1 {
+  text-align: center;
+}
+
+.corte1 img {
+  width: 30rem;
+  height: 40rem;
+  object-fit: cover;
+  border-radius: 20px;
 }
 
 
