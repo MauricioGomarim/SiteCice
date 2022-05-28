@@ -38,9 +38,15 @@ nav {
 
 }
 
+.logo img {
+  width: 6rem;
+  height: 6rem;
+
+}
 
 .logo {
   display: flex;
+  gap: 1rem;
 }
 
 .logo h1 {
@@ -115,6 +121,19 @@ main h1 {
 
   border: 1px solid white;
 }
+
+.section2 {}
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (min-width: 600px) {
