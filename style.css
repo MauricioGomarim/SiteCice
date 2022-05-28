@@ -82,7 +82,7 @@ ul a:hover {
 header::before {
   opacity: 20%;
   content: '';
-  background-image: url(/images/foto-cice.jpg);
+  background-image: url(images/foto-cice.jpg);
   background-repeat: no-repeat;
   background-size: 130%;
   background-position: center;
