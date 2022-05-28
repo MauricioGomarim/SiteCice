@@ -285,6 +285,8 @@ table {
 
 .textcontent, .textcontent-none, .textcontent-initial {
   max-width: 500px;
+
+  color: rgb(2, 0, 0);
 }
 
 .text1 h1 {
