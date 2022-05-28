@@ -370,6 +370,20 @@ table {
   font-size: 2rem;
 }
 
+.logo-wpp {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+
+  padding: 2rem;
+  z-index: 2;
+}
+
+.logo-wpp img {
+  width: 5rem;
+  height: 5rem;
+}
+
 
 
 footer {
