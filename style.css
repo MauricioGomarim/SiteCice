@@ -81,7 +81,7 @@ ul a:hover {
 
 header::before {
   opacity: 20%;
-  content: 'teste';
+  content: '';
   background-image: url(/images/foto-cice.jpg);
   background-repeat: no-repeat;
   background-size: 130%;
@@ -126,11 +126,67 @@ main {
 
 
 .section2 {
-  border-top: 1px solid rgb(150, 150, 150);
+  border-top: 2px solid rgb(0, 0, 0);
+  width: 100%;
+  background-color: rgb(120, 120, 120);
+
+  height: 80vh;
+  margin-bottom: 5rem;
+
+  display: flex;
+  justify-content: center;
 }
 
-.section2 img {
-  width: 30rem;
+.foto-sobre img {
+  margin-top: 5rem;
+  width: 25rem;
+  height: 25rem;
+  object-fit: cover;
+  border: 2px solid rgb(14, 3, 3);
+  border-radius: 50%;
+  box-shadow: -5px 1px 20px 1px #000000;
+}
+
+.sobre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.text-sobre {
+  text-align: center;
+
+
+}
+
+.text-sobre h1 {
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+  color: rgb(0, 0, 0);
+
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-decoration: overline;
+
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.text-sobre p {
+  font-weight: 400;
+  font-size: 2rem;
+  color: aliceblue;
+
+  max-width: 700px;
+}
+
+
+.section3 {
+  border-top: 2px solid rgb(0, 0, 0);
+  width: 100%;
+  background-color: rgb(120, 120, 120);
 }
 
 
@@ -149,5 +205,9 @@ main {
   header::before {
     background-position: top;
     background-size: 100%;
+  }
+
+  .sobre {
+    flex-direction: row;
   }
 }
