@@ -215,6 +215,7 @@ table {
   border-top: 2px solid rgb(0, 0, 0);
   width: 100%;
   background-color: rgb(120, 120, 120);
+  color: rgb(0, 0, 0);
 
   display: flex;
   align-items: center;
