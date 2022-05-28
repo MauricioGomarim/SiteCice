@@ -96,14 +96,14 @@ header::before {
 
 
 main {
-  height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
 }
 
-main h1 {
+.text-section1 h1 {
   font-weight: 700;
   font-size: 7.2rem;
   text-align: center;
@@ -112,17 +112,26 @@ main h1 {
   color: rgba(255, 255, 255, 0.74);
 }
 
+.text-section1 {
+  border: 1px solid white;
+}
+
 .section1 {
-  max-width: 700px;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  border: 1px solid white;
 }
 
-.section2 {}
+
+.section2 {
+  border-top: 1px solid rgb(150, 150, 150);
+}
+
+.section2 img {
+  width: 30rem;
+}
 
 
 
