@@ -280,7 +280,7 @@ table {
   display: flex;
   flex-direction: column;
 
-  gap: 5rem;
+  gap: 2rem;
 }
 
 .textcontent, .textcontent-none, .textcontent-initial {
@@ -292,7 +292,8 @@ table {
 .text1 h1 {
   font-size: 5rem;
   font-weight: 800;
-  margin-bottom: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .text1 p {
@@ -301,11 +302,20 @@ table {
   font-size: 2rem;
 }
 
+.text1 img {
+  margin: 3rem 1rem;
+}
+
+.text2 img {
+  margin: 0rem 1rem;
+}
+
 
 .text2 h1 {
   font-size: 5rem;
   font-weight: 800;
-  margin-bottom: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .text2 p {
