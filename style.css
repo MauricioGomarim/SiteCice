@@ -155,7 +155,7 @@ table {
   width: 100%;
   background-color: rgb(120, 120, 120);
 
-  height: 80vh;
+  height: 100%;
   margin-bottom: 5rem;
 
   display: flex;
@@ -179,11 +179,11 @@ table {
   align-items: center;
   gap: 3.2rem;
 
+
 }
 
 .text-sobre {
   text-align: center;
-
 
 }
 
@@ -228,29 +228,37 @@ table {
 
 .corte1 {
   text-align: center;
-
+  width: 100%;
   gap: 8rem;
 
+  flex-direction: column;
 }
 
 .corte1 img {
-  width: 30rem;
-  height: 40rem;
+  max-width: 30rem;
+  max-height: 40rem;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   border-radius: 20px;
   margin-bottom: 2rem;
 
 }
 
+
+
+/*
 .corte1::before {
   content: '';
-  width: 30rem;
-  height: 40rem;
+  max-width: 30rem;
+  max-height: 31rem;
+  width: 100%;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.698);
   position: absolute;
   z-index: -1;
-  left: 15rem;
-  top: 2rem;
+  left: 0rem;
+  top: 0rem;
 }
 
 .textsec3::before {
@@ -260,26 +268,53 @@ table {
   background-color: rgba(0, 0, 0, 0.346);
   position: absolute;
   z-index: -1;
-  left: 2rem;
-  bottom: 28rem;
+  left: 0rem;
+  bottom: 0rem;
 }
 
+*/
 
-.textsec3 {
+
+.text1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.textcontent {
   max-width: 500px;
 }
 
-.textsec3 h1 {
+.text1 h1 {
   font-size: 5rem;
   font-weight: 800;
   margin-bottom: 5rem;
 }
 
-.textsec3 p {
+.text1 p {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 2rem;
 }
+
+.text2 {
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+}
+
+.text2 h1 {
+  font-size: 5rem;
+  font-weight: 800;
+  margin-bottom: 5rem;
+}
+
+.text2 p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
 
 
 footer {
@@ -326,21 +361,15 @@ footer a {
     align-items: center;
   }
 
-  #none {
-    display: block;
+  .text1, .text2 {
+    flex-direction: row;
+    justify-content: center;
   }
 
-  #initial {
-    display: none;
-  }
 
-  .corte1::before {
-    left: 0;
-  }
 
-  .textsec3::before {
-    bottom: 0;
-    left: 80rem;
-  }
+
+
+
 
 }
