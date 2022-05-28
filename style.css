@@ -12,6 +12,7 @@
 .container {
   max-width: 1210px;
   margin: 0 auto;
+  padding: 0 3rem;
 }
 
 body {
@@ -75,7 +76,7 @@ ul a:hover {
 header::before {
   opacity: 20%;
   content: 'teste';
-  background-image: url(/images/delfina-pan-wJoB8D3hnzc-unsplash.jpg);
+  background-image: url(/images/foto-cice.jpg);
   background-repeat: no-repeat;
   background-size: 130%;
   background-position: center;
@@ -106,34 +107,19 @@ main h1 {
 }
 
 .section1 {
+  max-width: 700px;
   display: flex;
   flex-direction: column;
-
   justify-content: center;
   align-items: center;
 
   border: 1px solid white;
 }
 
-.button1 {
-  display: flex;
-  justify-content: center;
-  background-color: rgba(212, 217, 221, 0.28);
-  width: 25rem;
-  border: 1px solid rgb(0, 0, 0);
-}
 
-.button1:hover {
-  background-color: rgb(212, 217, 221);
-}
-
-.button1 i {
-  font-weight: 700;
-  font-size: 7.2rem;
-  text-align: center;
-  letter-spacing: 1rem;
-  color: rgb(15, 12, 12);
-  cursor: pointer;
-  text-transform: uppercase;
-
+@media (min-width: 600px) {
+  header::before {
+    background-position: top;
+    background-size: 100%;
+  }
 }
