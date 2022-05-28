@@ -33,6 +33,8 @@ body::before {
 
 }
 
+
+
 nav {
   height: 7.2rem;
   display: flex;
@@ -40,6 +42,7 @@ nav {
   gap: 3.2rem;
 
 }
+
 
 .logo img {
   width: 6rem;
@@ -82,6 +85,12 @@ ul a {
 
 ul a:hover {
   color: rgb(255, 255, 255);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
 }
 
 header::before {
@@ -416,6 +425,14 @@ footer a {
 
 
 
+#menu {
+  display: none;
+}
+
+#btn-Mobile {}
+
+
+
 
 
 
@@ -427,6 +444,18 @@ footer a {
   header::before {
     background-position: top;
     background-size: 100%;
+  }
+
+  header {
+    justify-content: flex-start;
+  }
+
+  #btn-Mobile {
+    display: none;
+  }
+
+  #menu {
+    display: flex;
   }
 
   .sobre {
