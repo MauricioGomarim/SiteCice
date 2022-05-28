@@ -13,6 +13,8 @@
   max-width: 1210px;
   margin: 0 auto;
   padding: 0 3rem;
+
+  overflow-x: hidden;
 }
 
 body {
@@ -116,15 +118,36 @@ thead td {
   color: white;
 }
 
+
+
+.tabela {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #202020;
+  gap: 5rem;
+}
+
+.tabela img {
+  object-fit: cover;
+  width: 30rem;
+  height: 30rem;
+}
+
 table {
+  margin-top: 2rem;
   border-spacing: 0;
   border-radius: 5px;
+
+  max-width: 300px;
   width: 100%;
   height: 80%;
   background-color: rgb(80, 81, 81);
   font-size: 2rem;
   border: 1px solid white;
   text-align: center;
+  font-weight: 700;
+  font-family: 'Dancing Script', cursive;
 }
 
 .text-section1 h1 {
@@ -356,7 +379,7 @@ footer {
   align-items: flex-end;
   background-color: black;
   color: white;
-  letter-spacing: 1rem;
+  letter-spacing: .5rem;
 }
 
 footer span {
@@ -376,6 +399,14 @@ footer a {
 #none {
   display: none;
 }
+
+
+
+
+
+
+
+
 
 
 @media (min-width: 600px) {
@@ -407,10 +438,6 @@ footer a {
   .textcontent-none {
     display: initial;
   }
-
-
-
-
 
 
 }
