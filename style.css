@@ -225,6 +225,8 @@ table {
 .corte1 {
   text-align: center;
 
+  gap: 8rem;
+
 }
 
 .corte1 img {
@@ -251,7 +253,7 @@ table {
   content: '';
   width: 30rem;
   height: 40rem;
-  background-color: rgba(0, 0, 0, 0.504);
+  background-color: rgba(0, 0, 0, 0.346);
   position: absolute;
   z-index: -1;
   left: 2rem;
@@ -329,7 +331,7 @@ footer a {
   }
 
   .corte1::before {
-    left: 2rem;
+    left: 0;
   }
 
   .textsec3::before {
