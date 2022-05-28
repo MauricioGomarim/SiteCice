@@ -41,12 +41,14 @@ nav {
 .logo img {
   width: 6rem;
   height: 6rem;
+  object-fit: cover;
 
 }
 
 .logo {
   display: flex;
   gap: 1rem;
+
 }
 
 .logo h1 {
