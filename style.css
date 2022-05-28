@@ -275,10 +275,12 @@ table {
 */
 
 
-.text1 {
+.text1, .text2 {
   width: 100%;
   display: flex;
   flex-direction: column;
+
+  gap: 5rem;
 }
 
 .textcontent, .textcontent-none, .textcontent-initial {
@@ -297,11 +299,6 @@ table {
   font-size: 2rem;
 }
 
-.text2 {
-  width: 100%;
-  flex-direction: column;
-  display: flex;
-}
 
 .text2 h1 {
   font-size: 5rem;
