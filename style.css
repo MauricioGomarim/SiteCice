@@ -452,7 +452,7 @@ footer a {
 }
 
 #nav.active #menu {
-
+  overflow-y: auto;
   height: 100vh;
   display: flex;
   visibility: visible;
@@ -480,12 +480,10 @@ footer a {
   }
 
   #btn-Mobile {
-    display: none;
+    visibility: hidden;
   }
 
-  #menu {
-    display: none;
-  }
+
 
   #menu-2 {
     display: flex;
