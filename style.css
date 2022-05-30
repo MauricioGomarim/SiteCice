@@ -393,7 +393,7 @@ table {
   bottom: 0;
 
   padding: 2rem;
-  z-index: 2;
+  z-index: 1000;
 }
 
 .logo-wpp img {
