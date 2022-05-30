@@ -2,10 +2,15 @@ const btnMobile = document.getElementById('btn-Mobile')
 
 function toggleMenu() {
   const nav = document.getElementById('nav')
-  const body = document.getElementById('hide')
 
   nav.classList.toggle('active')
-  body.classList.toggle('hide')
+}
+
+function menuhide() {
+  const nav = document.getElementById('nav')
+
+  nav.classList.remove('active')
 }
 
 btnMobile.addEventListener('click', toggleMenu)
+menu.addEventListener('click', menuhide)
