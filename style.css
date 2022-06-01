@@ -28,18 +28,6 @@ body {
 
 }
 
-body::before {
-  content: '';
-  width: 100%;
-  height: 7.2rem;
-  background: rgba(51, 51, 51, 1);
-  position: absolute;
-  z-index: -1;
-  border-bottom: 1px solid #bebebe;
-
-
-}
-
 
 
 nav {
@@ -99,12 +87,26 @@ ul a:hover {
 }
 
 header {
+  width: 100%;
+  align-items: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 5rem;
+  background: rgba(51, 51, 51, 1);
+  border-bottom: 1px solid white;
+}
+
+.header-largura {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
   gap: 5rem;
 }
 
 header::before {
+  margin-top: 72rem;
+
   opacity: 20%;
   content: '';
   background-image: url(images/foto-cice.jpg);
@@ -114,7 +116,7 @@ header::before {
 
   width: 100%;
   height: 110%;
-  position: fixed;
+  position: absolute;
   z-index: -2;
   left: 0;
 }
