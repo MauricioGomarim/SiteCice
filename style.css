@@ -54,7 +54,7 @@ nav {
   align-items: center;
   display: flex;
   gap: 1rem;
-  max-width: 300px;
+  max-width: 250px;
 }
 
 .logo h1 {
@@ -104,12 +104,12 @@ header {
   width: 100%;
   align-items: center;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   gap: 5rem;
 }
 
 header::before {
-  margin-top: 72rem;
+  margin-top: 50rem;
 
   opacity: 20%;
   content: '';
