@@ -54,6 +54,7 @@ nav {
   align-items: center;
   display: flex;
   gap: 1rem;
+  max-width: 300px;
 }
 
 .logo h1 {
@@ -598,5 +599,8 @@ footer a {
     display: initial;
   }
 
+  .logo {
+    max-width: 500px;
+  }
 
 }
