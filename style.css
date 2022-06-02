@@ -443,6 +443,7 @@ footer a {
 }
 
 #menu {
+  margin-top: 7.3rem;
   visibility: hidden;
   display: block;
   background-color: #565656;
@@ -477,6 +478,70 @@ footer a {
   overflow-y: hidden;
 }
 
+/* MENU BTN */
+
+
+.menu-btn {
+  position: absolute;
+  z-index: 2000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8rem;
+  height: 8rem;
+
+  transition: all .5s ease-in-out;
+
+}
+
+#menu-btn_burguer {
+  cursor: pointer;
+  width: 50px;
+  height: 6px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
+  transition: all .5s ease-in-out;
+}
+
+#menu-btn_burguer::before,
+#menu-btn_burguer::after {
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 6px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
+  transition: all .5s ease-in-out;
+}
+
+#menu-btn_burguer::before {
+  transform: translateY(-16px);
+}
+
+#menu-btn_burguer::after {
+  transform: translateY(16px);
+
+}
+
+
+.menu-btn.open #menu-btn_burguer {
+  transform: translateX(-50px);
+  background: transparent;
+  box-shadow: none;
+}
+
+.menu-btn.open #menu-btn_burguer::before {
+  transform: rotate(45deg) translate(35px, -35px);
+}
+
+.menu-btn.open #menu-btn_burguer::after {
+  transform: rotate(-45deg) translate(35px, 35px);
+}
+
+/* FIM */
+
 
 @media (min-width: 600px) {
 
@@ -489,8 +554,8 @@ footer a {
     justify-content: flex-start;
   }
 
-  #btn-Mobile {
-    visibility: hidden;
+  .menu-btn {
+    display: none;
   }
 
 
