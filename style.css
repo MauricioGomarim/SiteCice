@@ -117,10 +117,10 @@ header::before {
   background-image: url(images/foto-cice.jpg);
   background-repeat: no-repeat;
   background-size: 130%;
-  background-position: center;
+  background-position: top;
 
   width: 100%;
-  height: 110%;
+  height: 100%;
   position: absolute;
   z-index: -2;
   left: 0;
@@ -182,15 +182,17 @@ table {
 
 .text-section1 h1 {
   font-weight: 700;
-  font-size: 7.2rem;
+  font-size: 4rem;
   text-align: center;
   letter-spacing: 1rem;
   max-width: 600px;
   color: rgba(255, 255, 255, 0.74);
+
 }
 
 .text-section1 {
   border: 1px solid #bebebe;
+  max-height: 260px;
 
 }
 
@@ -563,6 +565,11 @@ footer a {
 
   header {
     justify-content: flex-start;
+  }
+
+
+  .text-section1 h1 {
+    font-size: 7.2rem;
   }
 
   .menu-btn {
