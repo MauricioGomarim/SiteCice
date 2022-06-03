@@ -1,5 +1,3 @@
-// const btnMobile = document.getElementById('menu-btn_burguer')
-
 function toggleMenu() {
   const nav = document.getElementById('nav')
 
@@ -8,13 +6,15 @@ function toggleMenu() {
 
 function menuhide() {
   const nav = document.getElementById('nav')
+  const body = document.querySelector('body')
 
   nav.classList.remove('active')
+  body.classList.remove('hide')
 }
 
-// btnMobile.addEventListener('click', toggleMenu)
-
 menu.addEventListener('click', menuhide)
+
+/*               ========            */
 
 const menuBtn = document.querySelector('.menu-btn')
 
