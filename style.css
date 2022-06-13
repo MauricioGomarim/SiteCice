@@ -116,7 +116,7 @@ header::before {
   content: '';
   background-image: url(images/foto-cice.jpg);
   background-repeat: no-repeat;
-  background-size: 130%;
+  background-size: cover;
   background-position: top;
 
   width: 100%;
@@ -501,6 +501,8 @@ footer a {
   align-items: center;
   width: 8rem;
   height: 8rem;
+  color: white;
+  background: rgba(255, 255, 255, 0.033);
 
   transition: all .5s ease-in-out;
 
@@ -513,7 +515,7 @@ footer a {
   height: 6px;
   background: white;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   transition: all .5s ease-in-out;
 }
 
@@ -525,7 +527,7 @@ footer a {
   height: 6px;
   background: white;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(255, 101, 47, .2);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   transition: all .5s ease-in-out;
 }
 
