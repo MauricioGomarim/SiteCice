@@ -109,8 +109,7 @@ header {
   gap: 5rem;
 }
 
-header::before {
-  margin-top: 50rem;
+.container::before {
 
   opacity: 20%;
   content: '';
@@ -202,6 +201,8 @@ table {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  margin-bottom: 5rem;
 }
 
 
@@ -557,6 +558,11 @@ footer a {
 
 /* FIM */
 
+@media (min-width: 1200px) {
+  .section1 {
+    margin-bottom: 6rem;
+  }
+}
 
 @media (min-width: 600px) {
 
